@@ -20,19 +20,19 @@ h1{
     font-family:'Consolas';
 }
 h2{
-    font-family:'Lucida Console';
+    font-family:'Times New Roman';
 }
 h3{
-    font-family:'Lucida Console';
+    font-family:'Times New Roman';
 }
 h4{
-    font-family:'Lucida Console';
+    font-family:'Times New Roman';
 }
 h5{
-    font-family:'Lucida Console';
+    font-family:'Times New Roman';
 }
 h6{
-    font-family:'Lucida Console';
+    font-family:'Times New Roman';
 }
 p{
     font-family:"Rockwell";
@@ -50,6 +50,10 @@ b{
   padding: 5px;
   width: 400px;
   height: 300px;
+}
+.soon{
+  text-align: center;
+
 }
 
 a, table.table a { color: #0544ff; }
