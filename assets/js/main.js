@@ -341,7 +341,7 @@ function scrollToContent(divId) {
 }
 
 function resetViews() {
-	$.getJSON("https://api.countapi.xyz/set/tanusreesharma.github.io/634c2142-b35d-430e-b51c-dad16880dd3a?value=0", function(response) {
+	$.getJSON("https://api.countapi.xyz/set/ron352.github.io/634c2142-b35d-430e-b51c-dad16880dd3a?value=0", function(response) {
 		$("#contadorVisitas").text("0");
 	});
 }
