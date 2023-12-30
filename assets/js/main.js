@@ -193,6 +193,22 @@ $(document).ready(function(){
 		}
 	});
 
+	$('#mis').click(function(e) {
+
+		// If the div has already the class active, no need to reload the divs...
+		if(!$(e.target).hasClass('active')) {
+			// Update navbar
+			clearActiveLinks();
+			activateLink(e);
+
+			// Hide other contents
+			clearActiveDivs();
+
+			// Show current content
+			activateDiv('#misContent');
+		}
+	});
+
 	/*
 	// Handle 'Template' content
 	$('#name').click(function(e) {
